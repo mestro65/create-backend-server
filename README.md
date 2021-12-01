@@ -13,6 +13,11 @@ const server = require('create-backend-server')
 
 server()
 ```
+## Use custom port
+create `.env` file in the root of your project
+```
+PORT=`port goes here`
+```
 
 # License
 MIT
